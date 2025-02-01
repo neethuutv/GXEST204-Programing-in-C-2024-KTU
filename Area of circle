@@ -1,0 +1,10 @@
+#include<stdio.h>#
+# define PI 3.14
+int main()
+{
+float r,Area;
+printf("Enter the radius:");
+scanf("%f",&r);
+Area=PI*r*r;
+printf("Area of Circle:%f",Area);
+}
