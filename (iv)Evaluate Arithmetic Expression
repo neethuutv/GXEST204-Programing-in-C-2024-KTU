@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,e,f,g,Ans;
+printf("Enter 7 values for the variables:");
+scanf("%d%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f,&g);
+Ans=((a-b/c*d+e)*(f+g));
+printf("Solutin=%d",Ans);
+}
